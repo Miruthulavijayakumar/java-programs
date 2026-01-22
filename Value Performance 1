@@ -1,0 +1,11 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner inn = new Scanner(System.in);
+         int intNum = inn.nextInt();
+        float floatNum = inn.nextFloat();
+        System.out.println(intNum);
+        System.out.printf("%.2f", floatNum);        
+    }
+}
