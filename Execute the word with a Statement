@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner inn = new Scanner(System.in);
+
+        String input = inn.nextLine();
+
+        String word = input.split(" ")[0];
+
+        System.out.println("May I know how to learn " + word + "!!!...");   
+    }
+}
