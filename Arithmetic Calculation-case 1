@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+         Scanner inn = new Scanner(System.in);
+        int a = inn.nextInt();
+        int b = inn.nextInt();
+        char ch = inn.next().charAt(0);
+        
+        switch (ch){
+            case '+':
+                double c = a+b;
+                System.out.println("Addition of two number is " +c);
+                break;
+            case '-':
+                double d = a-b;
+                System.out.println("Subtraction of two number is " +d);
+                break;
+            case '*':
+                double e = a+b;
+                System.out.println("Multiple of two number is " +e);
+             case '/':
+                double g = a+b;
+                System.out.println("Division of two number is " +g);
+            default:
+                System.out.println("Invalid Input");
+                
+        }
+        
+    }
+}
