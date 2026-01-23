@@ -19,10 +19,10 @@ public class Solution {
                 System.out.println("Subtraction of two number is " +d);
                 break;
             case '*':
-                double e = a+b;
+                double e = a*b;
                 System.out.println("Multiple of two number is " +e);
              case '/':
-                double g = a+b;
+                double g = a/b;
                 System.out.println("Division of two number is " +g);
             default:
                 System.out.println("Invalid Input");
