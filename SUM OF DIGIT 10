@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+          Scanner inn = new Scanner(System.in);
+        int n = inn.nextInt(),sum=0;
+        
+        if(n>=100){
+            while(n>0){
+                int rem = n%10;
+                sum=sum+rem;
+                n=n/10;
+            }
+            System.out.print("Sum of digit is " +sum);
+        }
+        else{
+            System.out.print("Invalid Input");
+        }
+    }
+}
